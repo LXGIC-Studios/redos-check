@@ -1,0 +1,41 @@
+{
+  "name": "@lxgicstudios/redos-check",
+  "version": "1.0.0",
+  "description": "Find regex denial-of-service (ReDoS) vulnerabilities in JavaScript and TypeScript files. Detect catastrophic backtracking patterns, nested quantifiers, and unsafe regex. CI-ready.",
+  "main": "dist/index.js",
+  "bin": {
+    "redos-check": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "regex",
+    "redos",
+    "security",
+    "vulnerability",
+    "backtracking",
+    "denial-of-service",
+    "static-analysis",
+    "cli",
+    "lint",
+    "typescript"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/redos-check"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}
