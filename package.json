@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxgicstudios/redos-check"
+    "url": "git+https://github.com/LXGIC-Studios/redos-check.git"
   },
   "files": [
     "dist"
@@ -37,5 +37,13 @@
   "devDependencies": {
     "typescript": "^5.3.0",
     "@types/node": "^20.0.0"
+  },
+  "homepage": "https://github.com/LXGIC-Studios/redos-check#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/redos-check/issues"
   }
 }
